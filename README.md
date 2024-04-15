@@ -69,7 +69,7 @@ To evaluate LARC:
   jac-run ns3d/trainval.py --desc ns3d/desc_ns3d.py --scannet-file $scannet --referit3D-file $referit --object_data_path $object --load $load_path --evaluate
 ```
 
-Weights for our trained LARC model can be found at [trained_larc.pth]() and loaded into `load_path`.
+Weights for our trained LARC model can be found at [trained_larc.pth](https://drive.google.com/file/d/1ApG1KACx6bAp6yPRHDFnBibraq7TJglB/view?usp=drive_link) and loaded into `load_path`.
 
 
 
