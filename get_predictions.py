@@ -42,11 +42,10 @@ def preprocess_point_cloud(point_cloud):
     return pc
 
 if __name__=='__main__':
-    SCAN_ROOT = "/viscam/data/scannetv2/scans"
+    SCAN_ROOT = "<path to scans>"
     
     # Load SR3D scans
-    all_scans_in_dict, scans_split, class_to_idx = load_scan_related_data(
-        "/viscam/data/referit3d/sr3d/keep_all_points_with_global_scan_alignment/keep_all_points_with_global_scan_alignment.pkl")
+    all_scans_in_dict, scans_split, class_to_idx = load_scan_related_data("<path_to: keep_all_points_with_global_scan_alignment.pkl")
     
     # Set file paths and dataset config
     demo_dir = os.path.join(BASE_DIR, 'demo_files') 
@@ -58,7 +57,7 @@ if __name__=='__main__':
     elif FLAGS.dataset == 'scannet':
         sys.path.append(os.path.join(ROOT_DIR, 'scannet'))
         from scannet.scannet_detection_dataset import DC # dataset config
-        checkpoint_path = os.path.join(BASE_DIR, "log_scannet_{}/checkpoint.tar".format(FLAGS.ckpt))
+        checkpoint_path = os.path.join(BASE_DIR, "{}".format(FLAGS.ckpt))
         all_pc_path = [os.path.join(SCAN_ROOT, "{}/{}_vh_clean_2.ply".format(scan_name, scan_name)) for scan_name in all_scans_in_dict.keys()]
     else:
         print('Unkown dataset %s. Exiting.'%(DATASET))
