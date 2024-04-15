@@ -15,7 +15,7 @@ You will need to download scans from ScanNet and process them according to this 
 
 ## Pretraining
 
-After data preparation, you can follow the [training steps](https://github.com/facebookresearch/votenet?tab=readme-ov-file#train-and-test-on-scannet) to pretrain votenet on SR3D. You can find our pretrained weights [here](). 
+After data preparation, you can follow the [training steps](https://github.com/facebookresearch/votenet?tab=readme-ov-file#train-and-test-on-scannet) to pretrain votenet on SR3D. You can find our pretrained weights [here](https://drive.google.com/file/d/1CcV20pZJKJ5HZVfM-IZgN1zHfQYPPUiK/view?usp=drive_link). 
 
 
 ## Get votenet predictions
