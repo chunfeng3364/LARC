@@ -4,7 +4,7 @@
 ![figure](figure.png)
 <br />
 <br />
-**[Naturally Supervised 3D Visual Grounding with Language-Regularized Concept Learners]()**
+**[Naturally Supervised 3D Visual Grounding with Language-Regularized Concept Learners](https://arxiv.org/abs/2404.19696)**
 <br />
 [Chun Feng*](https://chunfeng3364.github.io/),
 [Joy Hsu*](http://web.stanford.edu/~joycj/),
