@@ -4,7 +4,7 @@
 ![figure](figure.png)
 <br />
 <br />
-**[Naturally Supervised 3D Visual Grounding with Language-Regularized Concept Learners](https://arxiv.org/abs/2404.19696)**
+**Naturally Supervised 3D Visual Grounding with Language-Regularized Concept Learners**
 <br />
 [Chun Feng*](https://chunfeng3364.github.io/),
 [Joy Hsu*](http://web.stanford.edu/~joycj/),
@@ -13,6 +13,8 @@
 <br />
 In Conference on Computer Vision and Pattern Recognition (CVPR) 2024
 <br />
+
+[[paper](https://arxiv.org/abs/2404.19696)]  [[project page](https://chunfeng3364.github.io/projects/larc_website/project_page.html)]
 
 ## Dataset
 Our dataset download process follows the [ReferIt3D benchmark](https://github.com/referit3d/referit3d).
